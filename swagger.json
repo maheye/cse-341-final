@@ -445,7 +445,7 @@
         }
       }
     },
-    "/plans/user_id/{user_id}/inspiration_id/{inspiration_id}": {
+    "/plans/user_id/{user_id}/event_id/{event_id}": {
       "get": {
         "description": "",
         "parameters": [
@@ -456,7 +456,7 @@
             "type": "string"
           },
           {
-            "name": "inspiration_id",
+            "name": "event_id",
             "in": "path",
             "required": true,
             "type": "string"
@@ -894,7 +894,7 @@
         }
       }
     },
-    "/user_id/{user_id}/inspiration_id/{inspiration_id}": {
+    "/user_id/{user_id}/event_id/{event_id}": {
       "get": {
         "description": "",
         "parameters": [
@@ -905,7 +905,7 @@
             "type": "string"
           },
           {
-            "name": "inspiration_id",
+            "name": "event_id",
             "in": "path",
             "required": true,
             "type": "string"

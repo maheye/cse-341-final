@@ -9,9 +9,6 @@ const doc ={
     
     host: "localhost:3000",
     schemes:['https'],
-    path: {
-
-    }
 
 };
 const outputFile = './swagger.json';

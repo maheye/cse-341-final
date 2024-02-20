@@ -5,10 +5,13 @@ const getAllEvents = async (req, res) => {
      //#swagger.tags=['events']
     try {
         const result = await mongodb.getDatabase().db().collection('events').find().toArray();
-        res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(result);
-    } catch (err) {
-        res.status(400).json({ message: err.message });
+        result.toArray().then((events) => {
+            res.setHeader('Content-Type', 'application/json');
+            res.status(200).json(events);
+            });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 };
 

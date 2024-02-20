@@ -1,0 +1,161 @@
+### Localhost Requests
+
+#### Main Localhost GET http://localhost:3000
+
+#### GET All Users Localhost GET http://localhost:3000/users
+
+#### GET Single User Localhost GET http://localhost:3000/users/1234567890
+
+#### Create User Localhost POST http://localhost:3000/users content-type: application/json
+
+{
+"username": "JaneDoe", "email": "email"
+}
+
+#### Update User Localhost PUT http://localhost:3000/users/9876543210 content-type: application/json
+
+{
+"username": "JaneDoe", "email": "email"
+}
+
+#### Delete User Localhost DELETE http://localhost:3000/users/5678901234
+
+#### Main Render GET https://cse341final-f5xq.onrender.com
+
+#### GET All Users Render GET https://cse341final-f5xq.onrender.com/users
+
+#### GET Single User Render GET https://cse341final-f5xq.onrender.com/users/1234567890
+
+#### Create User Render POST https://cse341final-f5xq.onrender.com/users content-type: application/json
+
+{
+"username": "JaneDoe", "email": "email"
+}
+
+#### Update User Render PUT https://cse341final-f5xq.onrender.com/users/9876543210 content-type: application/json
+
+{
+"username": "JaneDoe", "email": "email"
+}
+
+#### Delete User Render DELETE https://cse341final-f5xq.onrender.com/users/5678901234
+
+#### Main Localhost GET http://localhost:3000
+
+#### GET All events Localhost GET http://localhost:3000/events
+
+#### GET Single Inspiration Localhost GET http://localhost:3000/events/1234567890
+
+#### Create Inspiration Localhost POST http://localhost:3000/events content-type: application/json
+
+{
+"title": "Sample Inspiration Title", "content": "Sample Content", "author": "Sample Author", "category": "Sample Category", "type": "Sample Type"
+}
+
+#### Update Inspiration Localhost PUT http://localhost:3000/events/9876543210 content-type: application/json
+
+{
+"title": "Updated Inspiration Title", "content": "Updated Content", "author": "Updated Author", "category": "Updated Category", "type": "Updated Type"
+}
+
+#### Delete Inspiration Localhost DELETE http://localhost:3000/events/5678901234
+
+#### Main Render GET https://cse341final-f5xq.onrender.com
+
+#### GET All events Render GET https://cse341final-f5xq.onrender.com/events
+
+#### GET Single Inspiration Render GET https://cse341final-f5xq.onrender.com/events/1234567890
+
+#### Create Inspiration Render POST https://cse341final-f5xq.onrender.com/events content-type: application/json
+
+{
+"title": "Sample Inspiration Title", "content": "Sample Content", "author": "Sample Author", "category": "Sample Category", "type": "Sample Type"
+}
+
+#### Update Inspiration Render PUT https://cse341final-f5xq.onrender.com/events/9876543210 content-type: application/json
+
+{
+"title": "Updated Inspiration Title", "content": "Updated Content", "author": "Updated Author", "category": "Updated Category", "type": "Updated Type"
+}
+
+#### Delete Inspiration Render DELETE https://cse341final-f5xq.onrender.com/events/5678901234
+
+#### Main Localhost GET http://localhost:3000
+
+#### GET All Journals Localhost GET http://localhost:3000/journals
+
+#### GET Single Journal Localhost GET http://localhost:3000/journals/1234567890
+
+#### Create Journal Localhost POST http://localhost:3000/journals content-type: application/json
+
+{
+"title": "Sample Journal Title", "content": "Sample Content", "author": "Sample Author", "category": "Sample Category", "type": "Sample Type"
+}
+
+#### Update Journal Localhost PUT http://localhost:3000/journals/9876543210 content-type: application/json
+
+{
+"title": "Updated Journal Title", "content": "Updated Content", "author": "Updated Author", "category": "Updated Category", "type": "Updated Type"
+}
+
+#### Delete Journal Localhost DELETE http://localhost:3000/journals/5678901234
+
+#### Main Render GET https://cse341final-f5xq.onrender.com
+
+#### GET All Journals Render GET https://cse341final-f5xq.onrender.com/journals
+
+#### GET Single Journal Render GET https://cse341final-f5xq.onrender.com/journals/1234567890
+
+#### Create Journal Render POST https://cse341final-f5xq.onrender.com/journals content-type: application/json
+
+{
+"title": "Sample Journal Title", "content": "Sample Content", "author": "Sample Author", "category": "Sample Category", "type": "Sample Type"
+}
+
+#### Update Journal Render PUT https://cse341final-f5xq.onrender.com/journals/9876543210 content-type: application/json
+
+{
+"title": "Updated Journal Title", "content": "Updated Content", "author": "Updated Author", "category": "Updated Category", "type": "Updated Type"
+}
+
+#### Delete Journal Render DELETE https://cse341final-f5xq.onrender.com/journals/5678901234
+
+#### Main Localhost GET http://localhost:3000
+
+#### GET All Plans Localhost GET http://localhost:3000/plans
+
+#### GET Single Plan Localhost GET http://localhost:3000/plans/1234567890
+
+#### Create Plan Localhost POST http://localhost:3000/plans content-type: application/json
+
+{
+"title": "Sample Plan Title", "content": "Sample Content", "author": "Sample Author", "category": "Sample Category", "type": "Sample Type"
+}
+
+#### Update Plan Localhost PUT http://localhost:3000/plans/9876543210 content-type: application/json
+
+{
+"title": "Updated Plan Title", "content": "Updated Content", "author": "Updated Author", "category": "Updated Category", "type": "Updated Type"
+}
+
+#### Delete Plan Localhost DELETE http://localhost:3000/plans/5678901234
+
+#### Main Render GET https://cse341final-f5xq.onrender.com
+
+#### GET All Plans Render GET https://cse341final-f5xq.onrender.com/plans
+
+#### GET Single Plan Render GET https://cse341final-f5xq.onrender.com/plans/1234567890
+
+#### Create Plan Render POST https://cse341final-f5xq.onrender.com/plans content-type: application/json
+
+{
+"title": "Sample Plan Title", "content": "Sample Content", "author": "Sample Author", "category": "Sample Category", "type": "Sample Type"
+}
+
+#### Update Plan Render PUT https://cse341final-f5xq.onrender.com/plans/9876543210 content-type: application/json
+
+{
+"title": "Updated Plan Title", "content": "Updated Content", "author": "Updated Author", "category": "Updated Category", "type": "Updated Type"
+}
+
+#### Delete Plan Render DELETE https://cse341final-f5xq.onrender.com/plans/5678901234

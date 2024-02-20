@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv').config();
 const mongodb = require('./data/database');
 const passport = require('passport');
 const session = require('express-session');
@@ -10,16 +11,14 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use(bodyParser.json());
-app.use(passport.initialize());
-app.use(passport.session());
-
+app.use(bodyParser.json())
 app.use(session({
     secret: 'secret',
     resave: false,
     saveUninitialized: true,
-}));
-
+}))
+app.use(passport.initialize())
+app.use(passport.session())
 app.use((req, res, next)=>{
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader(
@@ -86,10 +85,8 @@ mongodb.initDb((err) => {
         console.log(err);
     } else {
         app.listen(port, () => {
-            if (process.env.NODE_ENV !== 'test') {
                 console.log(`Database is listening and node Running on port ${port}`);
-            }
-        });
+            });
     }
 });
 
